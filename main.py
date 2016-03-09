@@ -32,7 +32,6 @@ def find():
     #step3
     data = list[page_3][offset]
     p_addr = page_3*32 + offset
-    print str(p_addr)
     print "      -->Translates to Physical Address " + hex(p_addr) +" --> Value: " + hex(data)
     
     
